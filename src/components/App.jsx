@@ -67,7 +67,7 @@ const firtRenderForm  = useRef(true);
       .includes(filter.toLowerCase()));
 
     }
-
+console.log(filteredContacts());
 return (
   <div>
     <Section title="Phonebook">
